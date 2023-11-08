@@ -1,4 +1,4 @@
-package com.easyup.lombokmapstrucexample;
+package com.easyup.mapstructlombokintegrationdemo;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,5 +14,5 @@ public class UserDTO {
     private Long id;
     private String firstName;
     private String lastName;
-    private String username;
+    private String address;
 }

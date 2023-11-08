@@ -1,6 +1,8 @@
-package com.easyup.lombokmapstrucexample;
+package com.easyup.mapstructlombokintegrationdemo;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -17,12 +19,13 @@ import java.time.LocalDateTime;
 public class User {
 
     @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;
     private String firstName;
     private String lastName;
-    private String username;
+    private String address;
     private boolean enabled;
     private LocalDateTime creationDate;
-    private LocalDateTime updatedDate;
+    private LocalDateTime updateDate;
 
 }

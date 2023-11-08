@@ -1,13 +1,13 @@
-package com.easyup.lombokmapstrucexample;
+package com.easyup.mapstructlombokintegrationdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LombokmapstrucexampleKotlinApplication {
+public class MapstructLombokIntegrationDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LombokmapstrucexampleKotlinApplication.class, args);
+		SpringApplication.run(MapstructLombokIntegrationDemoApplication.class, args);
 	}
 
 }

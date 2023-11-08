@@ -1,1 +1,1 @@
-rootProject.name = "lombokmapstrucexample"
+rootProject.name = "com.easyup.mapstructlombokintegrationdemo"
